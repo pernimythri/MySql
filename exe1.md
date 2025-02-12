@@ -1,7 +1,7 @@
 ### Run in command prompt ->    mysql -u root -p
 ### Enter password: ***
 --------------------------------------------------------------------------------------------------
-### Creating database###
+### Creating database
 > create database mythri;
 > use mythri;
 
@@ -64,7 +64,7 @@
 
 ### Display the structure of the created table      
    > desc customer;
-            +--------------+-------------+------+-----+---------+-------+
+            
             | Field        | Type        | Null | Key | Default | Extra |
             +--------------+-------------+------+-----+---------+-------+
             | customerId   | int(11)     | NO   | PRI | NULL    |       |
@@ -72,7 +72,7 @@
             | lastName     | varchar(50) | YES  |     | NULL    |       |
             | age          | int(11)     | YES  |     | NULL    |       |
             | phoneNumber  | int(10)     | YES  |     | NULL    |       |
-            +--------------+-------------+------+-----+---------+-------+
+            
 
 ###### Delete the table
   > drop table subtable;
