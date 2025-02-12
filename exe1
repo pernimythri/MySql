@@ -1,7 +1,7 @@
-**Run in command prompt ->    mysql -u root -p**
-**Enter password:--**
+Run in command prompt ->    mysql -u root -p
+Enter password:***
 --------------------------------------------------------------------------------------------------
-**Creating database**
+Creating database
 > create database mythri;
 > use mythri;
 
