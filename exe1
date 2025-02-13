@@ -83,3 +83,34 @@ Enter password: ***
     +------------------+
 
 
+**Delete Command**
+      > select * from customer;
+        +------------+--------------+----------+------+-------------+
+        | customerId | customerName | lastName | age  | phoneNumber |
+        +------------+--------------+----------+------+-------------+
+        |          1 | mythri       | p        |   19 |  1234567890 |
+        |          2 | sai          | k        |   20 |  2147483647 |
+        |          3 | shiva        | a        |   12 |  1212121212 |
+        |          4 | ram          | g        |   15 |  2147483647 |
+        |          5 | krishna      | m        |   24 |  2147483647 |
+        +------------+--------------+----------+------+-------------+
+       
+        
+        > delete from customer where customerId=5;
+        
+        > select * from customer;
+        +------------+--------------+----------+------+-------------+
+        | customerId | customerName | lastName | age  | phoneNumber |
+        +------------+--------------+----------+------+-------------+
+        |          1 | mythri       | p        |   19 |  1234567890 |
+        |          2 | sai          | k        |   20 |  2147483647 |
+        |          3 | shiva        | a        |   12 |  1212121212 |
+        |          4 | ram          | g        |   15 |  2147483647 |
+        +------------+--------------+----------+------+-------------+
+
+
+Note :  If we omit the WHERE clause while using delete statement then all of the records will be deleted and the table will be empty. 
+        
+        
+        
+        
